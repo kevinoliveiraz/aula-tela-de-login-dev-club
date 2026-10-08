@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> <!-- link dos icones -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Login</title>
+</head>
+
+<body>
+    <main class="container"><!-- conteudo principal -->
+        <form action="formulario"><!-- formulario -->
+            <h1><!-- titulo principal -->
+                Login dev Club
+            </h1>
+            <div class="campo-login">
+                <input  placeholder="usuario" type="email"><!-- placeholder mostra uma dica no campo vazio; "usuario" é o texto da dica e desaparece ao digitar, type é o tipo do campo -->
+                <i class="bx bxs-user"></i>
+            </div>
+            <div class="campo-login">
+                <input  placeholder="usuario" type="password">
+                <!-- placeholder mostra uma dica no campo vazio; "usuario" é o texto da dica e desaparece ao digitar --> 
+                 <i class="bx bxs-lock-alt"></i>
+            </div>
+
+            <div class="Lembrar-senha">
+                <label > <!-- Liga o texto à caixinha: clicar em "Lembrar senha" também marca ou desmarca ela -->
+                    <input id="senha Lembrar" type="checkbox">
+                    Lembrar senha
+                </label>
+                <a id=" senha Esqueci" href="#">Esqueci a senha</a>
+            </div>
+            <button class="login" type="submit">Login</button> <!--  o submit faz o botão iniciar o envio das informações preenchidas -->
+
+            <div class="cadastrar">
+                <p>Não tem uma conta?</p>
+                <a href="#">Cadastre-se</a>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
