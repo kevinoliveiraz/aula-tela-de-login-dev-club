@@ -12,7 +12,7 @@ body {
     justify-content: center; /* Centraliza na horizontal */
     align-items: center; /* Centraliza na vertical */
     min-height: 100vh; /* Ocupa pelo menos toda a altura da tela */
-    background: url('img/image.png'); /* Define a imagem de fundo */
+    background: url('img/image1.png'); /* Define a imagem de fundo */
     background-size: cover; /* Faz a imagem cobrir o fundo */
     background-position: center; /* Centraliza a imagem de fundo */
 }
@@ -25,6 +25,9 @@ body {
     color: #fff;
     padding: 30px 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    background: rgba(255, 255, 255, 0.15); /* Fundo transparente para permitir enxergar o desfoque */
+    backdrop-filter: blur(10px); /* Desfoca o que está atrás do formulário */
+    -webkit-backdrop-filter: blur(1px); /* nivel do desfoque */
 
     & h1 {
         font-size: 36px;
