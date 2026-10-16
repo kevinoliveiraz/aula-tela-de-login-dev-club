@@ -12,7 +12,7 @@ body {
     justify-content: center; /* Centraliza na horizontal */
     align-items: center; /* Centraliza na vertical */
     min-height: 100vh; /* Ocupa pelo menos toda a altura da tela */
-    background: url('img/image1.png'); /* Define a imagem de fundo */
+    background: url('img/image.png'); /* Define a imagem de fundo */
     background-size: cover; /* Faz a imagem cobrir o fundo */
     background-position: center; /* Centraliza a imagem de fundo */
 }
